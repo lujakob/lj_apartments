@@ -1,0 +1,33 @@
+<T3DataStructure>
+    <meta>
+        <langDisable>1</langDisable>
+    </meta>
+    <sheets>
+        <sDEF>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>Allgemein</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+                    <settings.apartments>
+                        <TCEforms>
+                            <exclude>0</exclude>
+                            <label>Zimmer</label>
+                            <config>
+                                <type>group</type>
+                                <internal_type>db</internal_type>
+                                <allowed>tx_ljapartment_domain_model_apartment</allowed>
+                                <size>20</size>
+                                <maxitems>300</maxitems>
+                                <minitems>0</minitems>
+                                <show_thumbs>1</show_thumbs>
+                            </config>
+                        </TCEforms>
+                    </settings.apartments>
+
+                </el>
+            </ROOT>
+        </sDEF>
+    </sheets>
+</T3DataStructure>

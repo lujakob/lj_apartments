@@ -1,0 +1,15 @@
+
+plugin.tx_ljapartment {
+	view {
+		templateRootPath = {$plugin.tx_ljapartment.view.templateRootPath}
+		partialRootPath = {$plugin.tx_ljapartment.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_ljapartment.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_ljapartment.persistence.storagePid}
+	}
+	features {
+		# uncomment the following line to enable the new Property Mapper.
+		# rewrittenPropertyMapper = 1
+	}
+}

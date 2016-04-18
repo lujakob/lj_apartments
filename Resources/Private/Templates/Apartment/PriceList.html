@@ -1,0 +1,66 @@
+{namespace v=FluidTYPO3\Vhs\ViewHelpers}
+<div class="ce ce-price-list container cf">
+
+	<div class="price-list price-list-1">
+		<div class="price-list-content">
+			<ul>
+				<f:for each="{apartments}" as="apartment">
+					<li><span class="title">{apartment.subTitle}</span></li>
+				</f:for>
+			</ul>
+		</div>
+	</div>
+	<div class="price-list price-list-2">
+		<div class="price-list-content">
+			<div class="header">
+				<h2>{config.season1}</h2>
+				<div class="range"><f:format.raw>{config.range1}</f:format.raw></div>
+			</div>
+			<ul>
+				<f:for each="{apartments}" as="apartment">
+					<li><span class="title">{apartment.subTitle}</span><span class="price">{apartment.price1}</span></li>
+				</f:for>
+			</ul>
+		</div>
+	</div>
+	<div class="price-list price-list-3">
+		<div class="price-list-content">
+			<div class="header">
+				<h2>{config.season2}</h2>
+				<div class="range"><f:format.raw>{config.range2}</f:format.raw></div>
+			</div>
+			<ul>
+				<f:for each="{apartments}" as="apartment">
+					<li><span class="title">{apartment.subTitle}</span><span class="price">{apartment.price2}</span></li>
+				</f:for>
+			</ul>
+		</div>
+	</div>
+	<div class="price-list price-list-4">
+		<div class="price-list-content">
+			<div class="header">
+				<h2>{config.season3}</h2>
+				<div class="range"><f:format.raw>{config.range3}</f:format.raw></div>
+			</div>
+			<ul>
+				<f:for each="{apartments}" as="apartment">
+					<li><span class="title">{apartment.subTitle}</span><span class="price">{apartment.price3}</span></li>
+				</f:for>
+			</ul>
+		</div>
+	</div>
+	<div class="price-list price-list-5">
+		<div class="price-list-content">
+			<div class="header">
+				<h2>{config.season4}</h2>
+				<div class="range"><f:format.raw>{config.range4}</f:format.raw></div>
+			</div>
+			<ul>
+				<f:for each="{apartments}" as="apartment">
+					<li><span class="title">{apartment.subTitle}</span><span class="price">{apartment.price4}</span></li>
+				</f:for>
+			</ul>
+		</div>
+	</div>
+
+</div>

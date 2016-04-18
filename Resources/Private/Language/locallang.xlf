@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-06-15T14:23:25Z" product-name="lj_apartment">
+		<header/>
+		<body>
+			<trans-unit id="tx_ljapartment_domain_model_apartment">
+				<source>Apartment</source>
+			</trans-unit>
+			<trans-unit id="tx_ljapartment_domain_model_apartment.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_ljapartment_domain_model_apartment.sub_title">
+				<source>Sub Title</source>
+			</trans-unit>
+			<trans-unit id="tx_ljapartment_domain_model_apartment.size">
+				<source>Size</source>
+			</trans-unit>
+			<trans-unit id="tx_ljapartment_domain_model_apartment.capacity">
+				<source>Capacity</source>
+			</trans-unit>
+			<trans-unit id="tx_ljapartment_domain_model_apartment.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_ljapartment_domain_model_apartment.bodytext">
+				<source>Bodytext</source>
+			</trans-unit>
+			<trans-unit id="tx_ljapartment_domain_model_apartment.price1">
+				<source>Price1</source>
+			</trans-unit>
+			<trans-unit id="tx_ljapartment_domain_model_apartment.price2">
+				<source>Price2</source>
+			</trans-unit>
+			<trans-unit id="tx_ljapartment_domain_model_apartment.price3">
+				<source>Price3</source>
+			</trans-unit>
+			<trans-unit id="tx_ljapartment_domain_model_apartment.floor_plan">
+				<source>Floor Plan</source>
+			</trans-unit>
+			<trans-unit id="tx_ljapartment_domain_model_apartment.images">
+				<source>Images</source>
+			</trans-unit>
+			<trans-unit id="season.1">
+				<source>Saison 1</source>
+			</trans-unit>
+			<trans-unit id="season.2">
+				<source>Saison 2</source>
+			</trans-unit>
+			<trans-unit id="season.3">
+				<source>Saison 3</source>
+			</trans-unit>
+			<trans-unit id="season.4">
+				<source>Saison 4</source>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>

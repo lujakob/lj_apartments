@@ -1,0 +1,57 @@
+{namespace v=FluidTYPO3\Vhs\ViewHelpers}
+
+<div class="apartment-list-container">
+	<f:for each="{apartments}" as="apartment">
+		<div class="ce ce-textprice layout-{data.layout} container cf" data-media-gallery id="apartment-list-{apartment.uid}">
+			<div class="top">{apartment.title}</div>
+			<div class="big"></div>
+			<div class="content-wrap cf">
+				<figure>
+					<div class="thumbs cf">
+						<f:for each="{apartment.image}" as="image">
+							<div class="thumb-item">
+							<f:media
+								file="{image}"
+								width="{column.dimensions.width}"
+								height="{column.dimensions.height}"
+								alt="{column.media.alternative}"
+								title="{column.media.title}"
+								/>
+							</div>
+						</f:for>
+					</div>
+				</figure>
+				<div class="content">
+					<f:format.html>{apartment.bodytext}</f:format.html>
+					<div class="bottom">
+						<button class="price-btn"><f:translate key="LLL:EXT:stuben/Resources/Private/Language/locallang.xlf:content.price" /></button>
+						<f:link.page class="btn-primary" pageUid="{v:variable.typoscript(path:'PIDS.BOOK')}"><f:translate key="LLL:EXT:stuben/Resources/Private/Language/locallang.xlf:content.book" /></f:link.page>
+						<f:link.page class="btn-primary" pageUid="{v:variable.typoscript(path:'PIDS.REQUEST')}"><f:translate key="LLL:EXT:stuben/Resources/Private/Language/locallang.xlf:content.request" /></f:link.page>
+					</div>
+				</div>
+			</div>
+			<div class="price-list cf">
+				<div class="price-col">
+					<div class="season">{config.season1}</div>
+					<div class="range"><f:format.raw>{config.range1}</f:format.raw></div>
+					<div class="price"><f:format.raw>{apartment.price1}</f:format.raw></div>
+				</div>
+				<div class="price-col">
+					<div class="season">{config.season2}</div>
+					<div class="range"><f:format.raw>{config.range2}</f:format.raw></div>
+					<div class="price"><f:format.raw>{apartment.price2}</f:format.raw></div>
+				</div>
+				<div class="price-col">
+					<div class="season">{config.season3}</div>
+					<div class="range"><f:format.raw>{config.range3}</f:format.raw></div>
+					<div class="price"><f:format.raw>{apartment.price3}</f:format.raw></div>
+				</div>
+				<div class="price-col">
+					<div class="season">{config.season4}</div>
+					<div class="range"><f:format.raw>{config.range4}</f:format.raw></div>
+					<div class="price"><f:format.raw>{apartment.price4}</f:format.raw></div>
+				</div>
+			</div>
+		</div>
+	</f:for>
+</div>

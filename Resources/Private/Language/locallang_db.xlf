@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-06-15T14:23:25Z" product-name="lj_apartment">
+		<header/>
+		<body>
+			<trans-unit id="tx_ljapartment_domain_model_apartment">
+				<source>Zimmer</source>
+			</trans-unit>
+			<trans-unit id="tx_ljapartment_domain_model_config">
+				<source>Config</source>
+			</trans-unit>
+
+			<trans-unit id="tx_ljapartment_domain_model_apartment.title">
+				<source>Titel Zimmer</source>
+			</trans-unit>
+			<trans-unit id="tx_ljapartment_domain_model_apartment.sub_title">
+				<source>Titel Preisliste</source>
+			</trans-unit>
+			<trans-unit id="tx_ljapartment_domain_model_apartment.size">
+				<source>Größe</source>
+			</trans-unit>
+			<trans-unit id="tx_ljapartment_domain_model_apartment.capacity">
+				<source>Kapazität</source>
+			</trans-unit>
+			<trans-unit id="tx_ljapartment_domain_model_apartment.description">
+				<source>Beschreibung rechte Spalte</source>
+			</trans-unit>
+			<trans-unit id="tx_ljapartment_domain_model_apartment.bodytext">
+				<source>Text</source>
+			</trans-unit>
+			<trans-unit id="tx_ljapartment_domain_model_apartment.price1">
+				<source>Preis 1</source>
+			</trans-unit>
+			<trans-unit id="tx_ljapartment_domain_model_apartment.price2">
+				<source>Preis 2</source>
+			</trans-unit>
+			<trans-unit id="tx_ljapartment_domain_model_apartment.price3">
+				<source>Preis 3</source>
+			</trans-unit>
+			<trans-unit id="tx_ljapartment_domain_model_apartment.price4">
+				<source>Preis 4</source>
+			</trans-unit>
+			<trans-unit id="tx_ljapartment_domain_model_config.season1">
+				<source>Saison 1</source>
+			</trans-unit>
+			<trans-unit id="tx_ljapartment_domain_model_config.season2">
+				<source>Saison 2</source>
+			</trans-unit>
+			<trans-unit id="tx_ljapartment_domain_model_config.season3">
+				<source>Saison 3</source>
+			</trans-unit>
+			<trans-unit id="tx_ljapartment_domain_model_config.season4">
+				<source>Saison 4</source>
+			</trans-unit>
+			<trans-unit id="tx_ljapartment_domain_model_config.range1">
+				<source>Zeitraum 1</source>
+			</trans-unit>
+			<trans-unit id="tx_ljapartment_domain_model_config.range2">
+				<source>Zeitraum 2</source>
+			</trans-unit>
+			<trans-unit id="tx_ljapartment_domain_model_config.range3">
+				<source>Zeitraum 3</source>
+			</trans-unit>
+			<trans-unit id="tx_ljapartment_domain_model_config.range4">
+				<source>Zeitraum 4</source>
+			</trans-unit>
+
+			<trans-unit id="tx_ljapartment_domain_model_apartment.floor_plan">
+				<source>Grundriss</source>
+			</trans-unit>
+			<trans-unit id="tx_ljapartment_domain_model_apartment.image">
+				<source>Bilder</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
